@@ -1,15 +1,11 @@
 package academic.driver;
-/**
- * @author 12S24042 Ventyola Rohati Napitupulu
- */
 import academic.model.Course;
 import academic.model.Student;
 import academic.model.Enrollment;
 import java.util.Scanner;
 
 /**
- * @author NIM Nama
- * @author NIM Nama
+ * @author 12S24042 Ventyola Rohati Napitupulu
  */
 public class Driver4 {
 
