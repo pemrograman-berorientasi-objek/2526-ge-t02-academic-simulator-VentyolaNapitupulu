@@ -1,39 +1,29 @@
 package academic.model;
-
 /**
  * @author 12S24042 Ventyola Rohati Napitupulu
  */
 public class Student {
-    private String id;
+
+    private String nim;
     private String name;
-    private String entryYear; // e.g., "2022"
-    private String major; 
+    private int year;
+    private String major;
 
-    public Student(String id, String name, String entryYear, String major) { 
-        this.id = id;
+    public Student(String nim, String name, int year, String major) {
+        this.nim = nim;
         this.name = name;
-        this.entryYear = entryYear;
-        this.major = major; 
+        this.year = year;
+        this.major = major;
     }
 
-    public String getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getEntryYear() {
-        return entryYear;
-    }
-
-    public String getMajor() { 
-        return major;
-    }
+    public String getNim() { return nim; }
+    public String getName() { return name; }
+    public int getYear() { return year; }
+    public String getMajor() { return major; }
 
     @Override
     public String toString() {
-        return id + "|" + name + "|" + entryYear + "|" + major; 
+        return nim + "|" + name + "|" + year + "|" + major;
     }
+
 }
