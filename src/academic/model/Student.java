@@ -1,4 +1,5 @@
 package academic.model;
+
 /**
  * @author 12S24042 Ventyola Rohati Napitupulu
  */
